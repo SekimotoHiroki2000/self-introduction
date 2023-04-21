@@ -1,0 +1,248 @@
+@charset "UTF-8";
+
+header{
+    height: 30px;
+    width:1000px;
+	padding: 20px;
+	background-image:url(../img/photo-1571292098320-997aa03a5d19.avif);
+	background-repeat:no-repeat;
+	background-size: 100% auto;
+	
+}
+header ul{
+	list-style: none;
+	float: right;
+}
+header li{
+	float:left;
+	padding: 0 80px;
+	border-left: 2px solid black;
+}
+header h1{
+	float: left;
+	line-height: 0px;
+	
+}
+.profile{
+	display: flex;
+	padding:20px;
+}
+.prof{
+	padding-left: 20px;
+}
+.back{
+width: 100%;
+position:relative;
+text-align: center;
+}
+.center2{
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.back img{
+	opacity: 0.3;
+	width: 100%;
+	height: auto;
+}
+
+section img{
+	max-width: 100%;
+}
+.center{
+	margin:0 auto 0 auto;
+	max-width: 90%;
+	width: 500px;
+}
+.center ul{
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.center li{
+	flex: 1 1 auto;
+	margin-right: 8px;
+}
+.center li:last-of-type {
+	margin-right: 0;
+}
+.from h1{
+	text-align: center;
+	padding:20px;
+}
+.Q{
+	padding:20px;
+}
+.hobby{
+	text-align: center;
+	padding-top: 5px;
+}
+
+.anime {
+	text-align: center;
+}
+.anime img {
+	height:600px;
+	width: auto;
+}
+
+.tab {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+
+/* タブメニュー */
+.tab__menu {
+  display: flex;
+  align-items: flex-end; /* メニューを下揃え&高さを調整 */
+  justify-content: center;
+  min-height: 50px; /* メニュー切替時にタブがズレないように */
+  padding: 0;
+  margin: 0;
+}
+
+.tab__menu-item {
+  list-style: none;
+  width: 200px;
+  padding: 8px 5px; /* メニューに高さを付ける */
+  text-align: center;
+  margin-right: 6px;
+  background-color: #cdcdcd;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  cursor: pointer;
+  transition: all .3s; /* アニメーション */
+}
+
+.tab__menu-item:last-of-type {
+  margin-right: 0px;
+}
+
+/* is-activeがついている時のスタイル */
+.tab__menu-item.is-active {
+  background-color: rgba(48, 172, 249);
+  color: #ffffff;
+  padding: 12px 5px;
+}
+/* タブパネル */
+.tab__panel {
+ width: 100%;
+}
+
+.tab__panel-box {
+  min-height: 400px; /* テキスト量が多くなっても対応できるように */
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+.tab__panel-box001 {
+  background-color: rgb(205, 246, 246);
+  display: none;
+}
+
+.tab__panel-box002 {
+  background-color: rgb(249 227 243);
+  display: none;
+}
+
+.tab__panel-box003 {
+  background-color: rgb(200, 248, 195);
+  display: none;
+}
+
+/* is-showがついている時のスタイル */
+.tab__panel-box.is-show {
+  display: block;
+}
+.tab h2{
+	text-align: center;
+}
+.anime h1{
+	text-align: center;
+	padding-top:50px;
+	margin-bottom: -80px;
+}
+.tab img{
+	width: 100%;
+	height:auto;
+}
+
+
+
+.container {
+width:960px;
+margin:0 auto;
+}
+.title {
+text-align: center;
+padding:.5em 0 ;
+font-family: ‘Oswald’, sans-serif;
+font-size:2em;
+margin:0;
+}
+.flex{
+display: flex;
+justify-content: space-between;
+margin-bottom: 2em;
+margin:0;
+}
+section.box{
+width:30%;
+text-align: center;
+background-color: #fff;
+border:1px solid #333;
+padding:1em;
+box-sizing: border-box;
+margin:0;
+}
+section.box h1{
+margin-bottom: 1rem;
+margin:0;
+}
+section.box figure a{
+transition: 2s;
+margin:0;
+}
+section.box figure a:hover{
+opacity: 0.5;
+margin:0;
+}
+section.box figure img{
+border-radius: 50%;
+margin:0;
+}
+section.box figcaption{
+text-align: left;
+text-align: justify;
+margin:0;
+}
+
+
+aricle,section,
+figure,figcaption{
+display: block;
+margin:0;
+}
+.game{
+font-size:1em;
+line-height: 1.7;
+font-family: ‘Noto Sans JP’, sans-serif;
+margin:0;
+}
+
+footer{
+	text-align:center;
+	font-family: 'Josefin Slab', serif;
+	background-color: rgb(128, 255, 255);
+}
+h1, h2, h3, p, li,  a, figcaption{
+	font-family: 'Josefin Slab', serif;
+}
+body{
+	background-image:url(../img/photo-1604147706283-d7119b5b822c.avif);
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+}
